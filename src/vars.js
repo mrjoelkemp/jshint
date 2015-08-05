@@ -56,6 +56,7 @@ exports.ecmaIdentifiers = {
 // Global variables commonly provided by a web browser environment.
 
 exports.browser = {
+  __proto__            : false,
   Audio                : false,
   Blob                 : false,
   addEventListener     : false,
